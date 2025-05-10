@@ -209,8 +209,6 @@ require('dotenv').config()
 
 const PORT = process.env.PORT ? process.env.PORT : 3000
 
-const db = require('./db')
-
 const app = express()
 
 app.use(logger('dev'))
